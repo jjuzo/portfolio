@@ -13,7 +13,7 @@ import { RouterLink } from 'vue-router';
   <div class="context animate__animated animate__fadeInLeft animate__delay-1s">
     <p class="mobile-p">Welcome to my creative space online! I'm a passionate and detail-oriented designer driven by a love for transforming ideas into visually compelling stories. I passionately advocate for creating digital experiences that are seamlessly accessible to everyone. I believe in the power of collaboration and user-centric design principles to craft experiences that not only look aesthetically pleasing but are also intuitive and accessible for all users. </p>
 
-    <p class="mobile-p">My goal is to make the web an inclusive space where everyone can navigate and engage effortlessly. If you'd like to delve deeper into my professional journey, feel free to access my resume by <a href="https://firebasestorage.googleapis.com/v0/b/images-port.appspot.com/o/Juzo%20M%20Resume.pdf?alt=media&token=1eb4fc04-17aa-457e-ad59-550cde6e6cab" class="link-fixed" target="_blank">clicking here.</a></p>
+    <p class="mobile-p">My goal is to make the web an inclusive space where everyone can navigate and engage effortlessly. If you'd like to delve deeper into my professional journey, feel free to access my resume by <a href="https://firebasestorage.googleapis.com/v0/b/images-port.appspot.com/o/Juzo%20Morales%20Resume.pdf?alt=media&token=67c30015-268f-41bb-bb07-6c469b908e2d" class="link-fixed" target="_blank">clicking here.</a></p>
   </div>
 </div>
   </div>
