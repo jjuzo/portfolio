@@ -52,6 +52,10 @@
             src="/src/assets/LadyM/Cover@2x.webp"
           />
         </div>
+          <div class="text-holder-callout">
+        <h1 class="mobile-h1 w-100">About this project</h1>
+        <p>LadyM Bakery traces its origins back to 2001, when it was founded by Ken Romaniszyn in New York City. The primary goal of this project was modernizing the brand's look while staying true to its culinary heritage. Making it more relevant and appealing to contemporary audiences without compromising the essence of its renowned quality and craftsmanship.</p>
+      </div>
 
         <div class="image-holder">
           <img
@@ -68,10 +72,7 @@
 </video>
       </div>
 
-        <div class="text-holder-callout">
-        <h1 class="mobile-h1 w-100">About this project</h1>
-        <p>LadyM Bakery traces its origins back to 2001, when it was founded by Ken Romaniszyn in New York City. The primary goal of this project was modernizing the brand's look while staying true to its culinary heritage. Making it more relevant and appealing to contemporary audiences without compromising the essence of its renowned quality and craftsmanship.</p>
-      </div>
+      
 
 
         <div class="image-holder">
