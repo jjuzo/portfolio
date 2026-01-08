@@ -51,7 +51,7 @@
         <div class="text-holder-callout">
         <h1 class="mobile-h1 w-100">About this project</h1>
         <p>
-         A new design system created for the 2025 Soho International Film Festival, built to support a timeless, digitally-driven identity. The system prioritizes flexibility, consistency, and scalability to enhance the festival’s presence and marketability across modern digital touchpoints.</p>
+        This project introduces a redesigned visual system for the 2025 Soho International Film Festival, rooted in the architectural character of the SoHo neighborhood. The previous branding lacked a strong connection to its physical surroundings. These influences shaped a system that feels grounded and intentional, while remaining adaptable across digital, motion, and promotional applications.</p>
       </div>
 
     
@@ -64,7 +64,7 @@
 
     <div class="text-holder-callout">
         <h1 class="mobile-h1 w-100">The Deliverables </h1>
-        <p>A completely new logo design is accompanied by a dynamic design system that reflects the various products offered by LadyM. Alongside the brand new logo, there is a brand style guide and brand architecture to ensure consistency across different touchpoints. Other deliverables include typography pairing, a brand color palette, and an iconography package.</p>
+        <p>The deliverables included animated interstitials and transitional assets used between screenings, commercial breaks, and nominee introductions. Each element was designed to be modular, scalable, and visually cohesive, reinforcing a consistent cinematic identity throughout the festival. Additional deliverables included graphic assets for social media promotion, Instagram story advertisements, and custom apparel designs worn by festival volunteers and staff.</p>
       </div>
         <div class="image-holder">
          <video  class="w-100 img-styling" autoplay loop muted playsinline>
