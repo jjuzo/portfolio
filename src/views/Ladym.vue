@@ -7,26 +7,29 @@
           <h1 class="mobile-h1">Lady M Rebranding</h1>
         </div>
         <div class="grouping">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            class="flipped not-clickable"
-          >
-            <path d="M6 0l12 12-12 12z" />
-          </svg>
-
-          <router-link class="toggle-arrows-nxt" to="/calia">
+              <router-link class="toggle-arrows-prv" to="/sharp">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
+              class="flipped"
             >
               <path d="M6 0l12 12-12 12z" />
             </svg>
           </router-link>
+
+   
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="not-clickable"
+            >
+              <path d="M6 0l12 12-12 12z" />
+            </svg>
+       
         </div>
       </div>
 

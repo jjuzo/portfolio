@@ -7,17 +7,15 @@
           <h1 class="mobile-h1">Soho International Film Festival 2025</h1>
         </div>
         <div class="grouping">
-          <router-link class="toggle-arrows-prv" to="/calia">
-            <svg
+              <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              class="flipped"
+              class="not-clickable flipped"
             >
               <path d="M6 0l12 12-12 12z" />
             </svg>
-          </router-link>
 
           <router-link class="toggle-arrows-nxt" to="/belize">
             <svg
@@ -77,6 +75,12 @@
         <div class="image-holder">
                    <video  class="w-100 img-styling" autoplay loop muted playsinline>
 <source src="https://www.dropbox.com/scl/fi/eads6waylkiclgevrjpt7/Main-Intro-13-secs.mp4?rlkey=vf22fatecvyt72ghro7x83udw&st=2u26wiv2&raw=1" type="video/mp4">
+</video>
+        </div>
+
+                <div class="image-holder">
+             <video  class="w-100 img-styling" autoplay loop muted playsinline>
+<source src="https://www.dropbox.com/scl/fi/1g1wfjz2izt2dei7x3lpm/Animation-2.mp4?rlkey=4qjc322fnqmf3hjczxvbjstx8&st=tgm0wl14&raw=1" type="video/mp4">
 </video>
         </div>
 

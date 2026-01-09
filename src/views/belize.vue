@@ -7,7 +7,7 @@
             <h1 class="mobile-h1">Belize: Esto Es Belicidad</h1>
           </div>
           <div class="grouping">
-            <router-link class="toggle-arrows-prv" to="/sharp">
+            <router-link class="toggle-arrows-prv" to="/soho">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -19,15 +19,17 @@
               </svg>
             </router-link>
   
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              class="not-clickable"
-            >
-              <path d="M6 0l12 12-12 12z" />
-            </svg>
+          <router-link class="toggle-arrows-nxt" to="/sharp">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+               
+              >
+                <path d="M6 0l12 12-12 12z" />
+              </svg>
+            </router-link>
           </div>
         </div>
   

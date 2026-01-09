@@ -7,7 +7,7 @@
           <h1 class="mobile-h1">Sharp Homepage Redesign</h1>
         </div>
         <div class="grouping">
-          <router-link class="toggle-arrows-prv" to="/calia">
+          <router-link class="toggle-arrows-prv" to="/belize">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -19,7 +19,7 @@
             </svg>
           </router-link>
 
-          <router-link class="toggle-arrows-nxt" to="/belize">
+          <router-link class="toggle-arrows-nxt" to="/ladym">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

@@ -11,10 +11,10 @@
   </div>
   <div class="context animate__animated animate__fadeInLeft animate__delay-1s">
     <p class="mobile-p">For business inquiries, please contact me at:<a class="link-fixed" href="mailto:juzo_morales@fitnyc.edu" target="_blank"> juzo_morales@fitnyc.edu</a></p>
-    <p class="mobile-p">Connect with me via LinkedIn: <a class="link-fixed" href="https://www.linkedin.com/in/juzo-morales-17499a191/" target="_blank">https://www.linkedin.com/in/juzo-morales-17499a191/</a></p>
+    <p class="mobile-p">Connect with me via LinkedIn: <a class="link-fixed" href="https://www.linkedin.com/in/juzo-morales/" target="_blank">https://www.linkedin.com/in/juzo-morales/</a></p>
     <p class="mobile-p">For more of my work, follow my Instagram: <a class="link-fixed" href="https://www.instagram.com/juzo.css/" target="_blank">@juzo.css</a></p>
 
-    <p class="mobile-p">©2023</p>
+    <p class="mobile-p">©2026</p>
  
   </div>
 </div>
