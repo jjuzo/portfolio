@@ -9,6 +9,7 @@ import SharpView from '../views/Sharp.vue';
 import Viewmore from '../views/Viewmore.vue';
 import BelizeView from '../views/belize.vue';
 import SohoView from '@/views/Soho.vue';
+import UKGView from '@/views/UKG.vue';
 
 
 
@@ -68,6 +69,12 @@ const router = createRouter({
       path: '/soho',
       name: 'soho',
       component: SohoView
+    },
+
+    {
+      path: '/ukg',
+      name: 'ukg',
+      component: UKGView
     },
 
   ],

@@ -22,8 +22,17 @@
 
         </router-link>
 
+        
+
   
       </div>
+
+              <div class="animate__animated animate__fadeInLeft box-shadow work-panels" id="sec">
+        <router-link class="links tooltip" to="/ukg">
+          <span class="tooltiptext"><h2 class="subtxt">UKG Rebrand 2025</h2><span class="tooltip-subtext"> Supported UKG’s rebrand with motion design across advertising content and UI animations, plus partner-facing brand guidelines.</span></span>
+        </router-link>
+      </div>
+
 
         <div class="animate__animated animate__fadeInLeft box-shadow work-panels" id="fifth">
         <router-link class="links tooltip" to="/belize">
@@ -239,7 +248,7 @@ template {
 #third,
 #fourth,
 #fifth {
-  width: clamp(250px, 22vw, 500px);  
+  width: clamp(300px, 22vw, 500px);  
   aspect-ratio: 16 / 9;       
   background-size: cover;
   background-repeat: no-repeat;
@@ -269,7 +278,7 @@ div#first:hover,
 }
 
 #sec {
-  background-image: url(/src/assets/calia_cover.webp);
+  background-image: url(/src/assets/UKGcover.webp);
 }
 
 #third {
@@ -507,6 +516,13 @@ div#first:hover,
 
 @media (max-width: 503px) {
 
+.work{
+  padding-top: 4rem;
+}
+
+    html, body {
+  overflow-x: hidden;
+}
   .prv-projects{
     font-size: 18px;
   }
@@ -519,7 +535,7 @@ div#first:hover,
 }
 
 #spacing{
-  padding-bottom: 0px;
+  padding-bottom: 4rem;
 }
 
 }

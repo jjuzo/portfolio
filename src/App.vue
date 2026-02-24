@@ -29,7 +29,13 @@ import{ref} from "vue"
 
     <transition name="fade-in-up">
     <div id="sideRight" class="animate__animated animate__fadeInUp">
-      <button id ="menu"  :class="{'rotated': isOpen}" @click="toggleContent" >+</button>
+     <button
+  id="menu"
+  :class="[{ rotated: isOpen }, { pulse: !isOpen }]"
+  @click="toggleContent"
+>
+  +
+</button>
     
     </div>
   </transition>
@@ -146,6 +152,88 @@ h3{
   font-family: Typewalk1915-Thin;
   color: black;
 } */
+
+#menu {
+  position: relative;
+  overflow: visible; /* allow ring to expand outside */
+}
+
+/* The pulsing ring lives on ::after, not on the button */
+#menu::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+
+  /* start visible but we’ll control opacity smoothly */
+  opacity: 1;
+  transform: scale(1);
+
+  /* smooth fade when hovering */
+  transition: opacity 450ms ease;
+}
+
+/* Only pulse when menu is closed (you already toggle .pulse via Vue) */
+#menu.pulse::after {
+  animation: pulse-animation 2.6s ease-out infinite;
+}
+
+/* On hover: fade the ring out smoothly (no sudden stop) */
+#menu:hover::after {
+  opacity: 0;
+}
+
+/* Also fade out on keyboard focus (nice accessibility polish) */
+#menu:focus-visible::after {
+  opacity: 0;
+}
+
+/* Keyframes drive the expanding ring */
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  #menu.pulse::after {
+    animation: none;
+  }
+  #menu::after {
+    transition: none;
+  }
+}
+
+#menu:hover {
+  animation: pulse-animation-soft 3s ease-out infinite;
+}
+
+@keyframes pulse-animation-soft {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.12);
+  }
+  100% {
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, 0);
+  }
+}
+
+.pulse {
+  animation: pulse-animation 2.5s infinite ease-out;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
 
 .top-left{
   position: fixed;
@@ -334,6 +422,9 @@ transition: transform 0.3s ease;
   height: 38px;
 }
 
+button#menu{
+  margin-right: .5rem;
+}
 .text-holder{
   font-size: 12px;
 }

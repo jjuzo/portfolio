@@ -4,20 +4,22 @@
     <div class="body animate__animated animate__delay-1s animate__fadeInLeft">
       <div style="background-color: #dfdfdf;" class="sub-head box-shadow">
         <div class="grouping">
-          <h1 class="mobile-h1">Soho International Film Festival 2025</h1>
+          <h1 class="mobile-h1">UKG Rebrand</h1>
         </div>
         <div class="grouping">
-              <svg
+              <router-link class="toggle-arrows-prv" to="/soho">
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              class="not-clickable flipped"
+              class="flipped"
             >
               <path d="M6 0l12 12-12 12z" />
             </svg>
+          </router-link>
 
-          <router-link class="toggle-arrows-nxt" to="/ukg">
+          <router-link class="toggle-arrows-nxt" to="/belize">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -31,8 +33,8 @@
       </div>
 
       <div class="text-holder">
-        <p>Team:  Joffre Noguera, Juzo Morales, Sibyl Reymundo-Santiago, Wiletzie Sanchez</p>
-        <p>Duration: 4 weeks</p>
+        <p>Team:  Colin Menchin, Emily Golden, Josh Davis, Juzo Morales</p>
+        <p>Duration: 8 weeks</p>
         <p>Role: Graphic/Motion Designer</p>
       </div>
 
@@ -42,88 +44,68 @@
           <img
             loading="lazy"
             class="w-100 img-styling"
-            src="/src/assets/Soho/soho_1.webp"
+            src="/src/assets/UKG/ukg_1.webp"
           />
         </div>
 
         <div class="text-holder-callout">
         <h1 class="mobile-h1 w-100">About this project</h1>
         <p>
-        This project introduces a redesigned visual system for the 2025 Soho International Film Festival, rooted in the architectural character of the SoHo neighborhood. The previous branding lacked a strong connection to its physical surroundings. These influences shaped a system that feels grounded and intentional, while remaining adaptable across digital, motion, and promotional applications.</p>
+       This project supported UKG’s broader rebranding effort, focused on evolving the brand into a more modern, flexible system across digital and product experiences. The initiative emphasized clarity, consistency, and scalability, ensuring the refreshed identity could translate seamlessly across marketing, UI, and partner-facing touchpoints. Motion played a key role in reinforcing the new brand language, helping define how the system behaves in motion and how it is experienced across screens.</p>
       </div>
 
     
 
           <div class="image-holder">
        <video  class="w-100 img-styling" autoplay loop muted playsinline>
-<source src="https://www.dropbox.com/scl/fi/58j224v9f1re91sr7xq2a/Cover.mp4?rlkey=l1v51o8kdhztnl991ittutcgp&st=vdcdpcj2&raw=1" type="video/mp4">
+<source src="https://www.dropbox.com/scl/fi/o2qnyfxjiqv1hwygmbp0w/ukg_final.mp4?rlkey=lq976h22inlwcqd5f9a39insc&st=o2uedpyg&raw=1" type="video/mp4">
 </video>
         </div>
 
     <div class="text-holder-callout">
         <h1 class="mobile-h1 w-100">The Deliverables </h1>
-        <p>The deliverables included animated interstitials and transitional assets used between screenings, commercial breaks, and nominee introductions. Each element was designed to be modular, scalable, and visually cohesive, reinforcing a consistent cinematic identity throughout the festival. Additional deliverables included graphic assets for social media promotion, Instagram story advertisements, and custom apparel designs worn by festival volunteers and staff.</p>
+        <p>The deliverables focused on translating the new brand system into motion and digital experiences. This included UI animation prototypes for the redesigned product interface, helping define how the rebrand behaves within the product itself. Short-form motion content was developed to unveil the rebrand across digital channels, alongside motion assets used for advertising and broader brand communication. Partner brand guidelines were also created to ensure consistent adoption and implementation of the new system across external teams and touchpoints.</p>
       </div>
-        <div class="image-holder">
-         <video  class="w-100 img-styling" autoplay loop muted playsinline>
-<source src="https://www.dropbox.com/scl/fi/awsgianv8tytdfqndfuom/Whole-Graphic-View_2.mp4?rlkey=ejddpv6rmwi1du93a4pchsc2b&st=e4b00bnk&raw=1" type="video/mp4">
+
+  
+
+                <div class="image-holder">
+             <video  class="w-100 img-styling" autoplay loop muted playsinline>
+<source src="https://www.dropbox.com/scl/fi/6u77bl079xj16f4f8hfgi/Dashboard-pair-1.mp4?rlkey=975u08vzoqqdx0ekmm6ohn57g&st=64tpr00q&raw=1" type="video/mp4">
 </video>
+        </div>
+
+        <div class="image-holder">
+             <video  class="w-100 img-styling" autoplay loop muted playsinline>
+<source src="https://www.dropbox.com/scl/fi/498v1y62utmpedttvn6nk/Dashboard-pair-2.mp4?rlkey=2jb5ytso39qr8b1cu5qck3utz&st=3kjg3wut&raw=1" type="video/mp4">
+</video>
+        </div>
+
+    <div class="image-holder">
+             <video  class="w-100 img-styling" autoplay loop muted playsinline>
+<source src="https://www.dropbox.com/scl/fi/qzfynps71bdvbqixibphk/Dashboard-pair-3.mp4?rlkey=w656ds5xzx10z01j9s524dh7r&st=rxug033v&raw=1" type="video/mp4">
+</video>
+        </div>
+
+       
+ <div class="image-holder">
+            <img
+            loading="lazy"
+            class="w-100 img-styling" 
+            src="/src/assets/UKG/UKG_2.webp"
+          />
         </div>
 
     
 
-        <div class="image-holder">
-                   <video  class="w-100 img-styling" autoplay loop muted playsinline>
-<source src="https://www.dropbox.com/scl/fi/eads6waylkiclgevrjpt7/Main-Intro-13-secs.mp4?rlkey=vf22fatecvyt72ghro7x83udw&st=2u26wiv2&raw=1" type="video/mp4">
-</video>
-        </div>
-
-                <div class="image-holder">
-             <video  class="w-100 img-styling" autoplay loop muted playsinline>
-<source src="https://www.dropbox.com/scl/fi/1g1wfjz2izt2dei7x3lpm/Animation-2.mp4?rlkey=4qjc322fnqmf3hjczxvbjstx8&st=tgm0wl14&raw=1" type="video/mp4">
-</video>
-        </div>
-
-        <div class="image-holder">
-             <video  class="w-100 img-styling" autoplay loop muted playsinline>
-<source src="https://www.dropbox.com/scl/fi/va3s9e2yf3nt3p4th3umn/overlay.mp4?rlkey=wbqgv54ktdoby78qfzbj3f957&st=wl4u6vy6&raw=1" type="video/mp4">
-</video>
-        </div>
-
-        <div class="image-holder">
+       <div class="image-holder margin-btm-56">
             <img
             loading="lazy"
             class="w-100 img-styling" 
-            src="/src/assets/Soho/soho_2.webp"
+            src="/src/assets/UKG/UKG_3.webp"
           />
         </div>
-
        
-
-        <div class="image-holder">
-          <img
-            loading="lazy"
-            class="w-100 img-styling" 
-            src="/src/assets/Soho/soho_3.webp"
-          />
-        </div>
-
-       
-        <div class="image-holder">
-           <img
-            loading="lazy"
-            class="w-100 img-styling" 
-            src="/src/assets/Soho/soho_4.webp"
-          />
-        </div>
-
-        <div class="image-holder margin-btm-56">
-           <img
-            loading="lazy"
-            class="w-100 img-styling" 
-            src="/src/assets/Soho/soho_5.webp"
-          />
-        </div>
 
 
       </div>

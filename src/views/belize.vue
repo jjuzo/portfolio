@@ -7,7 +7,7 @@
             <h1 class="mobile-h1">Belize: Esto Es Belicidad</h1>
           </div>
           <div class="grouping">
-            <router-link class="toggle-arrows-prv" to="/soho">
+            <router-link class="toggle-arrows-prv" to="/ukg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -328,7 +328,7 @@
 }
 
 .body {
-  width: 88%;
+  width: 100%;
 }
 
 .margin-btm-32{

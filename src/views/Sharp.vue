@@ -340,7 +340,7 @@ display: flex;
 }
 
 .body {
-  width: 88%;
+  width: 100%;
 }
 
 .margin-btm-32{
